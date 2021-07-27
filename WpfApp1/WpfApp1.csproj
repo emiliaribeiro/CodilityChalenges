@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBC33F69-59EC-4CD2-8288-EA78D1169295}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WpfApp1</RootNamespace>
+    <AssemblyName>WpfApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AbsDistinct.cs" />
+    <Compile Include="ArrayInversionCount.cs" />
+    <Compile Include="BalancedBrackets.cs" />
+    <Compile Include="BinaryGap.cs" />
+    <Compile Include="BinarySearch.cs" />
+    <Compile Include="ChocolatesByNumbers.cs" />
+    <Compile Include="CommonPrimeDivisors.cs" />
+    <Compile Include="CountDistinctSlices.cs" />
+    <Compile Include="CountDiv.cs" />
+    <Compile Include="CountFactors.cs" />
+    <Compile Include="CountingValeys.cs" />
+    <Compile Include="CountNonDivisible.cs" />
+    <Compile Include="CountSemiprimes.cs" />
+    <Compile Include="CyclicRotation.cs" />
+    <Compile Include="DecomposicaoPrimos.cs" />
+    <Compile Include="Distinct.cs" />
+    <Compile Include="DivisoresDeN.cs" />
+    <Compile Include="Dominator.cs" />
+    <Compile Include="Equileader.cs" />
+    <Compile Include="ErastotenesPrimos.cs" />
+    <Compile Include="FibFrog.cs" />
+    <Compile Include="FibonnacciSequence.cs" />
+    <Compile Include="FishQueues.cs" />
+    <Compile Include="Frog.cs" />
+    <Compile Include="FrogRiver.cs" />
+    <Compile Include="GenomicRangeQuery.cs" />
+    <Compile Include="JumpClouds.cs" />
+    <Compile Include="LongestPassword.cs" />
+    <Compile Include="MaxCounters.cs" />
+    <Compile Include="MaxDoubleSliceSum.cs" />
+    <Compile Include="MaxProductOfThree.cs" />
+    <Compile Include="MaxSlice.cs" />
+    <Compile Include="MinAVGToSlice.cs" />
+    <Compile Include="MinMaxDivision.cs" />
+    <Compile Include="MissingInteger.cs" />
+    <Compile Include="MMC.cs" />
+    <Compile Include="NailingPlanks.cs" />
+    <Compile Include="NumberOfDiscIntersections.cs" />
+    <Compile Include="OddOccurrencesInArray.cs" />
+    <Compile Include="PairsSocks.cs" />
+    <Compile Include="PassingCars.cs" />
+    <Compile Include="Peaks.cs" />
+    <Compile Include="PermCheck.cs" />
+    <Compile Include="PermMissingElem.cs" />
+    <Compile Include="Primes.cs" />
+    <Compile Include="RectangleBuilderGreaterArea.cs" />
+    <Compile Include="Repeated String.cs" />
+    <Compile Include="ReverseCoins.cs" />
+    <Compile Include="SamallestMissingInteger.cs" />
+    <Compile Include="StrSymmetryPoint.cs" />
+    <Compile Include="SubsequenceEqualsSum.cs" />
+    <Compile Include="TapeEquilibrum.cs" />
+    <Compile Include="Task1.cs" />
+    <Compile Include="TennisTournament.cs" />
+    <Compile Include="TopMostRepeatedChar.cs" />
+    <Compile Include="TotalTrianglesInASequence.cs" />
+    <Compile Include="Triangle.cs" />
+    <Compile Include="TriangularTriplet.cs" />
+    <Compile Include="Triplet.cs" />
+    <Compile Include="WeddingList.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PokerChips.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
